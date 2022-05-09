@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Electrolize&display=swap');
+
+body {
+    background-color: rgb(12, 12, 11);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Arapey,Electrolize;
+}
+
+h2 {
+    font-size: 5.4rem;
+    color: rgb(57, 167, 47);
+    margin-bottom: 30px;
+
+
+
+
+}
+
+.container {
+
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#date{
+    font-size: 2.5rem;
+    color: antiquewhite;
+    margin-top: 80px;
+
+}
+
+#info {
+    font-size: 4.2rem;
+    
+}
+
+.user-name-cookie {
+    font-size: 1rem;
+    padding: 2px;
+    width: 24rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(216, 137, 20);
+    
+    
+}
+
+
+
+#label {
+    color: antiquewhite;
+}
+
+#label2 {
+    color: antiquewhite;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+#btn {
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(4, 119, 14);
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 80px;
+    width: 100%;
+    color: rgb(235, 232, 228);
+
+
+}
+
+button {
+    cursor: pointer;
+}
